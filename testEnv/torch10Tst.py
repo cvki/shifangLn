@@ -9,8 +9,9 @@ print(torch.version.cuda)
 print(torch.cuda.is_available())
 print(torch.cuda.device_count())
 
-path='/d2/code/testEnv/rose.png'
+path='/d2/code/gitRes/testEnv/rose.png'
 rose=cv2.imread(path)
 cv2.imshow('rose',rose)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
