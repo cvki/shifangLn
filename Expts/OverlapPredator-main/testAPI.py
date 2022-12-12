@@ -172,15 +172,18 @@ if __name__=='__main__':
     # crt2=list(set(crt[:, 0].tolist()))
     # print('crt2: {}'.format(crt2))
 
-    a=torch.randint(3,40,(5,7),dtype=torch.int32)
-    print('a: ',a)
-    a1=torch.randint(30,40,(1,7),dtype=torch.int32)
-    print('a1: ', a1)
-    a2=torch.randint(10,20,(1,7),dtype=torch.int32)
-    print('a2: ', a2)
-
-    b=torch.cat([a1,a2,a],dim=0)
-    print('b: ', b)
+    # a=torch.randint(3,40,(5,7),dtype=torch.int32)
+    # print('a: ',a)
+    # a1=torch.randint(30,40,(1,7),dtype=torch.int32)
+    # print('a1: ', a1)
+    # a2=torch.randint(10,20,(1,7),dtype=torch.int32)
+    # print('a2: ', a2)
+    #
+    # b=torch.cat([a1,a2,a],dim=0)
+    # print('b: ', b)
+    pos_mask=torch.Tensor([[True,False],[False,True]])
+    v=2.1*(~pos_mask).float()
+    print(v)
     pass
 
 

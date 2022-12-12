@@ -38,7 +38,6 @@ def sample_interest_points(method, scores, N):
     return choice
 
 
-
 def benchmark_predator(feats_scores,n_points,exp_dir,whichbenchmark,sample_method,ransac_with_mutual=False, inlier_ratio_threshold = 0.05):
     gt_folder = f'configs/benchmarks/{whichbenchmark}'
     exp_dir = f'{exp_dir}/{whichbenchmark}_{n_points}_{sample_method}'

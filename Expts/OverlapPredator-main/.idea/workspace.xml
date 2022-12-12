@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eabd99f-6a6f-4313-97ba-191101fa671f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../EMDLoss_PyTorch_cpp_extension-main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CrossPoint-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CrossPoint-master/.idea/CrossPoint-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeoTransformer-222/experiments/geotransformer.modelnet.rpmnet.stage4.gse.k3.max.oacl.stage2.sinkhorn/testModelNetApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeoTransformer-222/testAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeoTransformer-main/model_info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeoTransformer-main/testAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeoTransformer-main/testAPI2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_x0/experiments/GModelnet/testModelnetApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_x1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_x1/.idea/pc_x1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_x1/experiments/GModelnet/decode2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPConv-PyTorch-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OverlapPredator-main.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluate_predator.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_predator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/testAPI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,20 +44,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/d2/code/gitRes/Expts/EMDLoss_PyTorch_cpp_extension-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/d2/code/gitRes/Expts/OverlapPredator-main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/testAPI/data_test" />
       <recent name="$PROJECT_DIR$/configs/train" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_debug">
+  <component name="RunManager" selected="Python.main eval">
     <configuration name="architectures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlapPredator-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,16 +189,16 @@
       <item itemvalue="Python.main eval" />
       <item itemvalue="Python.architectures" />
       <item itemvalue="Python.demo" />
-      <item itemvalue="Python.trainer" />
       <item itemvalue="Python.main_debug" />
       <item itemvalue="Python.testAPI" />
+      <item itemvalue="Python.trainer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_debug" />
-        <item itemvalue="Python.architectures" />
         <item itemvalue="Python.demo" />
+        <item itemvalue="Python.main_debug" />
         <item itemvalue="Python.testAPI" />
+        <item itemvalue="Python.architectures" />
         <item itemvalue="Python.trainer" />
       </list>
     </recent_temporary>
@@ -223,14 +239,59 @@
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lib/loss.py</url>
-          <line>170</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lib/benchmark_utils.py</url>
           <line>186</line>
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/trainer.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/trainer.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/trainer.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/architectures.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/trainer.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/architectures.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/architectures.py</url>
+          <line>186</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/architectures.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/trainer.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
